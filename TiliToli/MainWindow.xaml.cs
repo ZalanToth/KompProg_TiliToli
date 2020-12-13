@@ -80,14 +80,14 @@ namespace TiliToli
         {
 
             Button egyikGomb = sender as Button;
-            Button nullaGomb = (Button)FindName("Button0");
-            int vTav = Math.Abs((int)(egyikGomb.Margin.Left - nullaGomb.Margin.Left));
-            int fTav = Math.Abs((int)(egyikGomb.Margin.Top - nullaGomb.Margin.Top));
+            Button nullGomb = (Button)FindName("Button0");
+            int vTav = Math.Abs((int)(egyikGomb.Margin.Left - nullGomb.Margin.Left));
+            int fTav = Math.Abs((int)(egyikGomb.Margin.Top - nullGomb.Margin.Top));
             if ((vTav < 120 && fTav == 0) || (fTav < 120 && vTav == 0))
             {
                 var seged = egyikGomb.Margin;
-                egyikGomb.Margin = nullaGomb.Margin;
-                nullaGomb.Margin = seged;
+                egyikGomb.Margin = nullGomb.Margin;
+                nullGomb.Margin = seged;
 
                 NumberOfSteps++;
             }
