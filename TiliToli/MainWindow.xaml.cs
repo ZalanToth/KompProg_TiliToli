@@ -24,6 +24,8 @@ namespace TiliToli
         {
             InitializeComponent();
             Keveres();
+            Button Nullgomb = (Button)FindName("Button0");
+            Nullgomb.Visibility = Visibility.Hidden;
         }
         int NumberOfSteps = 0;
 
