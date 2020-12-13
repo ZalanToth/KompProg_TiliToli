@@ -23,7 +23,7 @@ namespace TiliToli
         public MainWindow()
         {
             InitializeComponent();
-            //Keveres();
+            Keveres();
         }
         int NumberOfSteps = 0;
 
@@ -154,7 +154,7 @@ namespace TiliToli
                        nullGomb.Margin = seged;
                        Shuffle++;
                    }
-               } while (Shuffle != 15);//Megkeverjük 15-ször
+               } while (Shuffle != 25);//Megkeverjük 25-ször
            }
     }
 }
