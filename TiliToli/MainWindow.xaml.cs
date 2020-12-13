@@ -32,7 +32,7 @@ namespace TiliToli
             {7,8,9}
         };
         int[,] MatrixEpp = new int[3, 3];
-        public void NewGame()
+  /*      public void NewGame()
         {
             for (int i = 0; i < MatrixKesz.Length; i++)
             {
@@ -66,7 +66,7 @@ namespace TiliToli
 
                 }
             }
-        }
+        }*/
 
 
         private void Button1_Click(object sender, RoutedEventArgs e)
@@ -86,7 +86,7 @@ namespace TiliToli
             }
             
             Lepes.Content ="Lépések száma: "+NumberOfSteps;
-            NewGame();
+            //NewGame();
         }
     }
 }
