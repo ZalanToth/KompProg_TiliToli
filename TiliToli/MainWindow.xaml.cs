@@ -139,7 +139,7 @@ namespace TiliToli
            {
                NumberOfSteps = 0;
                int randomNumber = 0;
-            int run = 0;
+               int run = 0;
                int Shuffle =r.Next(10,101);
                Lepes.Content = "Lépések száma: " + NumberOfSteps;
                Button nullGomb = (Button)FindName("Button0");

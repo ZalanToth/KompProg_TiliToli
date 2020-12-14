@@ -8,15 +8,21 @@
         Title="TiliToli" Height="500" Width="360"
         Name ="Jatek">
     <Grid>
-        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="15,70,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="130,70,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="245,70,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="15,185,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="5" x:Name="Button5" HorizontalAlignment="Left" Margin="130,185,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="245,185,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="15,300,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="130,300,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
-        <Button Content="0" x:Name="Button0" HorizontalAlignment="Left" Margin="245,300,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100"/>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF84C4F9" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="15,70,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FFB8B8FF"/>
+        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="130,70,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FF78D1A0"/>
+        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="245,70,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FFE5EA7A"/>
+        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="15,185,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FFDC39C6"/>
+        <Button Content="5" x:Name="Button5" HorizontalAlignment="Left" Margin="130,185,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FF39E2FD"/>
+        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="245,185,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FFFD815C"/>
+        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="15,300,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FFF1D269"/>
+        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="130,300,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FF28F33B"/>
+        <Button Content="0" x:Name="Button0" HorizontalAlignment="Left" Margin="245,300,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" Height="100" Background="#FF3C63CB"/>
         <Label x:Name="Lepes" Content="Lépéseid száma: " HorizontalAlignment="Left" Margin="31,430,0,0" VerticalAlignment="Top"/>
         <Button x:Name="NewGameButton" Content="Új játék" HorizontalAlignment="Left" Margin="230,433,0,0" VerticalAlignment="Top" Width="75" Click="NewGameButton_Click"/>
 
